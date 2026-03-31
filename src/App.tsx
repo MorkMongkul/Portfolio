@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { Analytics } from '@vercel/analytics/react'
 import { Navbar } from './components/Navbar'
 import { Footer } from './components/Footer'
 import { Hero } from './sections/Hero'
@@ -41,8 +42,6 @@ function LoadingScreen({ onDone }: { onDone: () => void }) {
           MM<span className="text-tan">.</span>
         </p>
         <p className="font-mono text-xs text-white/30 tracking-widest mb-10">MORK MONGKUL</p>
-
-        {/* Progress bar */}
         <div className="w-48 h-px bg-white/10 mx-auto overflow-hidden">
           <div
             className="h-full bg-sage transition-all duration-200 ease-out"
@@ -76,6 +75,7 @@ export default function App() {
         </main>
         <Footer />
       </div>
+      <Analytics />
     </>
   )
 }
