@@ -167,7 +167,7 @@ export const projects: Project[] = [
     status: 'Live',
     featured: true,
     color: 'tan',
-    link: 'http://152.42.172.59',
+    link: 'https://datahub.cdri.org.kh',
   },
   {
     id: 3,
