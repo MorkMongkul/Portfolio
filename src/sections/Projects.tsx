@@ -16,7 +16,7 @@ const statusColors = {
 const designCategories = [
   { id: 'branding', label: 'Branding', icon: Palette, count: 23 },
   { id: 'printads', label: 'Print Ads', icon: Image, count: 6 },
-  { id: 'socialmedias', label: 'Social Media', icon: Share2, count: 18 },
+  { id: 'socialmedias', label: 'Social Media', icon: Share2, count: 17 },
 ]
 
 const designAssets = {
@@ -30,7 +30,7 @@ const designAssets = {
     src: `/graphicdesign/printads/printads_${String(i + 1).padStart(2, '0')}.webp`,
     title: `Print Ad ${i + 1}`,
   })),
-  socialmedias: Array.from({ length: 18 }, (_, i) => ({
+  socialmedias: Array.from({ length: 17 }, (_, i) => ({
     id: `socialmedia_${i + 1}`,
     src: `/graphicdesign/socialmedias/socialmedia_${String(i + 1).padStart(2, '0')}.webp`,
     title: `Social Media ${i + 1}`,
