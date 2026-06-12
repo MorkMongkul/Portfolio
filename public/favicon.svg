@@ -1,6 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect width="32" height="32" fill="#0c0404"/>
-  <text x="4" y="23" font-family="Georgia, serif" font-size="18" font-weight="300" fill="#59695e">M</text>
-  <text x="16" y="23" font-family="Georgia, serif" font-size="18" font-weight="300" fill="#b38363">M</text>
-  <rect x="0" y="30" width="32" height="2" fill="#59695e"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" fill="#0c0404"/><text x="4" y="23" fill="#59695e" font-family="Georgia, serif" font-size="18" font-weight="300">M</text><text x="16" y="23" fill="#b38363" font-family="Georgia, serif" font-size="18" font-weight="300">M</text><rect width="32" height="2" x="0" y="30" fill="#59695e"/></svg>
